@@ -1,0 +1,33 @@
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    height: 100vh;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.social h2 {
+    font-size: 4rem;
+}
+
+.social-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+}
+
+@media (max-width: 900px) {
+    .social {
+        height: 100%;
+    }
+    .social-content {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+}
